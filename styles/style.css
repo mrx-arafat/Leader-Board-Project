@@ -9,22 +9,28 @@ body {
 /* main Section */
 main {
   display: flex;
+  justify-content: center;
   flex-direction: column;
+}
+
+section {
+  margin: 50px 284px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* top secion */
 .top {
-  margin: 50px 284px;
-  border: 1px solid black;
   background-color: white;
   width: 870px;
 }
 
-.top h1 {
-  margin: 30px auto 0px 33px;
+.top h1,
+.bottom h1 {
+  margin: 33px auto 0px 33px;
 
   color: rgba(86, 46, 255, 1);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   line-height: 36px;
 }
@@ -51,11 +57,45 @@ main {
   line-height: 27px;
   margin-left: 16px;
 }
+hr {
+  border: 1px solid gainsboro;
+  width: 90%;
+}
 
+.top-blog {
+  display: grid;
+  grid-template: 1fr 1fr /1fr 1fr;
+  margin: 30px;
+  grid-row-gap: 26px;
+  grid-column-gap: 32px;
+}
+.blog {
+  display: flex;
+}
+.thumbnail img {
+  width: 177px;
+  height: 117px;
+  margin-right: 16px;
+}
+.blog-title {
+  margin: 5px;
+}
+.author-name {
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #9f9f9f;
+}
+.author-name a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+
+  color: #562eff;
+}
 /* bottom section */
 .bottom {
-  margin: 50px 284px;
-  border: 1px solid black;
   background-color: white;
   width: 870px;
 }
