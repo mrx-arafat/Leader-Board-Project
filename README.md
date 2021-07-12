@@ -5,6 +5,8 @@ Using CSS :
 - Grid
 - Flexbox
 
-[Leader Board Page Link]()
+Used High Quality of image. I will optimise later.
+
+[Leader Board Page Link](https://mrx-arafat.github.io/Leader-Board-Project/)
 
 Desktop View Only
