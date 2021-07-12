@@ -106,17 +106,20 @@ hr {
 .course {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
-  height: 270px;
-  width: 265px;
-  padding: 12px;
+  height: 290px;
+  width: auto;
+  padding: 17px 12px 12px 12px;
   box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.05);
 
   border-radius: 5px;
 }
+.course-banner {
+  width: 100%;
+}
 .course-banner img {
-  width: 224px;
-  height: 104px;
+  width: 100%;
 }
 .course-title {
   font-weight: 500;
