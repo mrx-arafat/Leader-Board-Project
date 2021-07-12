@@ -52,7 +52,7 @@ section {
 }
 .player h3 {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 550;
   font-size: 18px;
   line-height: 27px;
   margin-left: 16px;
@@ -98,4 +98,62 @@ hr {
 .bottom {
   background-color: white;
   width: 870px;
+}
+.course {
+  display: flex;
+  flex-direction: column;
+
+  height: 270px;
+  width: 265px;
+  padding: 12px;
+  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.05);
+
+  border-radius: 5px;
+}
+.course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-title {
+  font-weight: 500;
+  font-size: 20.0336px;
+  line-height: 23px;
+}
+.course-author {
+  font-weight: normal;
+  font-size: 14.6913px;
+  line-height: 17px;
+
+  color: #ed6b4f;
+}
+
+.course-info {
+  display: flex;
+
+  align-items: center;
+}
+
+.course-rating {
+  color: rgb(255, 196, 47);
+  margin-right: 10px;
+}
+.rated-number {
+  font-weight: normal;
+  font-size: 14.6913px;
+  line-height: 22px;
+
+  color: #a2a2a2;
+  margin-right: 25px;
+}
+.course-duration {
+  height: 30px;
+  width: 95px;
+  display: flex;
+  background-color: #ffe4e8;
+  padding: 2px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #ff4a60;
 }
