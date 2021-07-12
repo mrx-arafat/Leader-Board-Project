@@ -1,6 +1,6 @@
 # Leader Board Project
 
-Using CSS :
+Used CSS :
 
 - Grid
 - Flexbox
