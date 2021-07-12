@@ -164,3 +164,68 @@ hr {
   font-size: 15px;
   color: #ff4a60;
 }
+
+/*-----------------
+   Media Query
+----------------- */
+@media only screen and (max-width: 688px) {
+  section {
+    margin: 50px 0;
+    display: block;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* top player */
+  .top-player {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(213, 216, 213);
+    margin: 30px 5px;
+    border-radius: 10px;
+  }
+
+  /* top-blog */
+  .blog-container {
+    display: flex;
+
+    flex-wrap: wrap;
+  }
+  .top-blog {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+  }
+  .thumbnail {
+    align-items: center;
+    margin-top: 10px;
+  }
+  .blog-title {
+    font-size: 20px;
+  }
+
+  /* bottom section */
+  .course-grand-father {
+    display: flex;
+    flex-direction: column;
+  }
+  .course-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+    padding: 33px;
+  }
+  .course {
+    margin: 20px;
+    padding: 20px;
+  }
+}
